@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Texture.meta
 guid: 9fd87fc10d852f14283346b6c476ccaa
+========
+guid: 6132507336e56c440b9df9e04b875efc
+>>>>>>>> 0a06b6884e7cc2e2c9b558642f77d674a1f08bbb:Assets/_Project/Pictures/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
