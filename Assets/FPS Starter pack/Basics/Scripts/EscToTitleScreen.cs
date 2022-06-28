@@ -1,18 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class EscToTitleScreen : MonoBehaviour
-{
-    public KeyCode quitKey = KeyCode.Escape;
-    public string sceneName = "Title Screen";
-
-    void Update()
-    {
-        if (Input.GetKeyDown(quitKey))
-        {
-            SceneManager.LoadScene(sceneName);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:374b26b02b8c52253327f46f9017d982042729855acf86dc0b1e87c4d0eea382
+size 395

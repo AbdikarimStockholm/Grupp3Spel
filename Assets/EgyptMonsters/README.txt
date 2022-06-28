@@ -1,11 +1,3 @@
-﻿Greeting from OpenlabProduction! 
-
-This is one part of one big assets pack related to Egypt RPG theme.
-The Pack will includes monsters, bosses and environment decorations.
-
-If you need any specific assets, we are always open for commision works.
-
-contact@openlabproduction.com
-
-Best regards,
-Lam Tai
+version https://git-lfs.github.com/spec/v1
+oid sha256:c51f451d87298db0d5e15d71972e548149724268701562d5e8147d55c7ac9c02
+size 302

@@ -1,12 +1,3 @@
-fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/_Project/script.meta
-guid: 606d9cc54dae0424e8b88f4b30b66f2a
-========
-guid: af29e1aaaaa333d4b958e6b198b858a6
->>>>>>>> 6e1da171aa438b5732f53287aa86f51b50c769d7:Assets/Candice AI for Games.meta
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:09de0059bda6c6d00343b77ef00664b602ff552fc09f64b4b1fc87bf0e445b66
+size 345

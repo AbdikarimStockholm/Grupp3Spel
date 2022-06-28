@@ -1,19 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-namespace CandiceAIforGames.AI
-{
-    public class CandiceBaseModule
-    {
-        private string moduleName;
-        private bool enableDebug = true;
-
-        public CandiceBaseModule(string moduleName)
-        {
-            ModuleName = moduleName;
-        }
-
-        public string ModuleName { get => moduleName; set => moduleName = value; }
-        public bool EnableDebug { get => enableDebug; set => enableDebug = value; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b71170bf28c28c55d373e89a49d8bfca587c01a12a59ce60baa55ada673e239
+size 518

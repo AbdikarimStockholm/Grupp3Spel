@@ -1,26 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace CandiceAIforGames.AI.Utils
-{
-    public class Utils
-    {
-
-        public static void LogClassInitialisation(object _class)
-        {
-            string[] className = (_class.ToString()).Split('.');
-            Debug.Log(className[className.Length - 1] + ": Initialised.");
-        }
-
-        public static void LogDamageReceived(string name,float damage, float currentHP)
-        {
-            Debug.Log(name + ": Hit with " + damage + " damage. New Health = " + currentHP + "    Hit Points.");
-        }
-
-        public static void LogDamageDealt(string name,float damage)
-        {
-            Debug.Log(name + ": Dealing " + damage + " damage.");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:055d8cb2f2afe2834f48b3af152e258cbfa67b157718b997a9063986c4f6abd9
+size 761

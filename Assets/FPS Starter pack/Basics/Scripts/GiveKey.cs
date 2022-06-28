@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GiveKey : MonoBehaviour
-{
-    public int keyToGive;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        var playersKeys = other.GetComponent<Keys>();
-
-        if (keyToGive < playersKeys.keys.Length)
-        {
-            other.GetComponent<Keys>().keys[keyToGive] = true;
-        }
-        else
-        {
-            Debug.LogWarning("Försökte ge nyckel med för högt nummer!");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bacd2164347a00043ecf3c77a1da2d64d84cefd1508b75eeb26a01856349a90
+size 500

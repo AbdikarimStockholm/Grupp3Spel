@@ -1,12 +1,3 @@
-fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/_Project/Pictures/museet.meta
-guid: be126903b65a21d4997a0ee6be9d389e
-========
-guid: 43dbe083ad4d7be4e90600631e3445e7
->>>>>>>> 608ab2351b8c7d954b731de8a2a9ba67f420f5f2:Assets/YughuesFreeMetalMaterials.meta
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:10a4854c354cdaa225f51b6d683e4008c14e7f2d9aee12d0d8e6b5e9b62e1c5c
+size 359

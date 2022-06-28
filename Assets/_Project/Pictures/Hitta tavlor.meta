@@ -1,12 +1,3 @@
-fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/_Project/Scenes/Museum.meta
-guid: 45ff87b1685b81740aaddd5a99302388
-========
-guid: 139ff3052014dba4b8345b300d6b3d77
->>>>>>>> 608ab2351b8c7d954b731de8a2a9ba67f420f5f2:Assets/_Project/Pictures/Hitta tavlor.meta
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:efeba707d5dde76653cca926ea09b7d12d4c09b5a2342dcb5e3338c58995ec09
+size 362

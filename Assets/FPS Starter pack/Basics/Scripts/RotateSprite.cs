@@ -1,11 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class RotateSprite : MonoBehaviour
-{
-    void Update()
-    {
-        transform.Rotate(new Vector3(0, 1, 0));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce35191c1f5bf8fe40bca45c0935fbd72e19db2ff1d69464e3c9d1ca9ffb015
+size 206
