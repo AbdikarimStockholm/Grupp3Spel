@@ -9,7 +9,8 @@ public class SaySomething : MonoBehaviour
     // Använd UI-lager med undertexter
     // Animera karaktär? Överkurs?
 
-    [TextArea(15, 20)] public string whatToSay;
+   
+    [TextArea(10, 15)] public string whatToSay;
     public float subtitleTime;
     public AudioClip clip;
     public bool repeatable = true;
@@ -17,9 +18,14 @@ public class SaySomething : MonoBehaviour
     private Image subtitles;
     private TextMeshProUGUI subText;
     private bool canSay = true;
+    public bool CanSpeak;
 
     private AudioSource source;
 
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
     private void Start()
     {
         subtitles = GameObject.FindGameObjectWithTag("SubtitlesCanvas").GetComponent<Image>();
@@ -27,24 +33,25 @@ public class SaySomething : MonoBehaviour
 
         subText = subtitles.gameObject.GetComponentInChildren<TextMeshProUGUI>();
         subText.enabled = false;
-
-        source = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.CompareTag("Player")) return;
         if (canSay)
         {
             if (clip != null)
             {
+                if (!CanSpeak) return;
                 source.PlayOneShot(clip);
             }
 
             subtitles.enabled = true;
             subText.enabled = true;
+
             subtitles.GetComponentInChildren<TextMeshProUGUI>().text = whatToSay;
 
-            StartCoroutine(turnOffSubtitles(subtitleTime));
+            StartCoroutine(turnOffSubtitles());
 
             if (!repeatable)
             {
@@ -53,9 +60,11 @@ public class SaySomething : MonoBehaviour
         }
     }
 
-    private IEnumerator turnOffSubtitles(float time)
+    private IEnumerator turnOffSubtitles()
     {
+        var time = !CanSpeak ? subtitleTime : clip.length;
         yield return new WaitForSeconds(time);
+
         subtitles.enabled = false;
         subText.enabled = false;
     }

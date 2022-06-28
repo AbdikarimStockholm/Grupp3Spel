@@ -18,12 +18,6 @@ public class LoadScene : MonoBehaviour
     {
         endText.text = "";
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        StartCoroutine(FadeOutAndLoad());
-    }
-
     public void StartGame()
     {
         print("LADDAR");
